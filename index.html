@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Recipes | Recipe Assistant Test Kitchen</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="banner">Test site for the Recipe Assistant widget. Not a real food blog.</div>
+<header><a class="brand" href="index.html">Test Kitchen</a>
+<nav><a href="index.html">Recipes</a> <a href="about.html">About</a></nav></header>
+<main>
+<h1>Test Kitchen</h1>
+<p class="intro">A small test site for checking the Recipe Assistant widget. The widget should <strong>not</strong> appear on this page.</p>
+<h2>Test pages</h2>
+<ul class="cards">
+  <li><a href="recipes/lemon-coconut-slice/index.html">No-Bake Lemon Coconut Slice</a><span>JSON-LD recipe with author notes</span></li>
+  <li><a href="recipes/brown-butter-oat-biscuits/index.html">Brown Butter Oat Biscuits</a><span>HTML-only recipe (no structured data)</span></li>
+  <li><a href="sponsored/honey-yoghurt-loaf/index.html">Honey Yoghurt Loaf</a><span>Recipe for testing URL exclusions</span></li>
+  <li><a href="about.html">About</a><span>Non-recipe page: no widget, no requests</span></li>
+</ul>
+</main>
+<!-- Recipe Assistant install snippet -->
+<script src="https://whisk-and-wordsmith.lovable.app/widget/v1/recipe-assistant.js" data-site-id="SITE-ID-PLACEHOLDER" async></script>
+</body>
+</html>
